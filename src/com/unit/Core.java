@@ -7,7 +7,7 @@ import java.util.Date;
 
 public class Core extends Thread{
 
-    public static String timeJudge(User user){
+    public static String timeJudge(){
         Date time = new Date();
         SimpleDateFormat ft = new SimpleDateFormat("HH");
         String emotion ;
