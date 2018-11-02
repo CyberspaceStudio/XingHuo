@@ -5,7 +5,7 @@
       <element id="javaee-facet-resources" facet="firechampi/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="firechampi" />
+          <element id="module-output" name="XingHuo" />
         </element>
       </element>
     </root>
