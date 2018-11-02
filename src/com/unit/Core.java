@@ -10,7 +10,7 @@ public class Core extends Thread{
     public static String timeJudge(User user){
         Date time = new Date();
         SimpleDateFormat ft = new SimpleDateFormat("HH");
-        String emotion = "";
+        String emotion ;
         int userTime = Integer.parseInt(ft.format(time));
         if ((userTime < 24 && userTime > 22) || (userTime > 0 && userTime < 8) ){
             emotion = "sadness";
@@ -28,6 +28,6 @@ public class Core extends Thread{
     }
 
     public void positionJudge(User user){
-        
+
     }
 }
